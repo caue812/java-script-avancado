@@ -29,19 +29,17 @@ async function salvar(e) {
     const dados = {
         nome: nome,
         cnpj: cnpj
-
     }
-    let url = `${urlAPI}/api/empresa`;
+    let url = `${urlAPI}/api/v1/empresa`;
     const resposta = await fetch(url, {
-       method: "POST",
-       headers: {"content-Type": "application/json"},
-       body: JSON.stringify(dados)
-    })
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(dados)
+    });
 
-    if(resposta.ok ==false){
-    alert("Não foi possível cadastrar")
+    if(resposta.ok == false){
+        alert("Não foi possível cadastrar")
     }else{
         location.href = '/exemplo-requisicoes.html';
     }
-
 } 
