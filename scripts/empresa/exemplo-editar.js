@@ -49,7 +49,7 @@ async function editar(evento){
     if (resposta.ok == false) {
         alert("Não foi possível alterar")
     } else {
-        location.href = '/exemplo-requisicoes.html';
+        location.href = '/empresa/index.html';
     }
 }
 

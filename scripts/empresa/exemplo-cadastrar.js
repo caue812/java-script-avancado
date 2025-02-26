@@ -40,6 +40,6 @@ async function salvar(e) {
     if(resposta.ok == false){
         alert("Não foi possível cadastrar")
     }else{
-        location.href = '/exemplo-requisicoes.html';
+        location.href = '/empresa/index.html';
     }
 } 
