@@ -33,7 +33,7 @@ async function salvarCliente(evento) {
         credito: credito
     };
 
-    const urlParaSalvarCliente = `${urlAPI}/api/v1/empresa/produtos/clientes`;
+    const urlParaSalvarCliente = `${urlAPI}/api/v1/produtos/clientes`;
     
     const resposta = await fetch(urlParaSalvarCliente, {
         method: "POST",

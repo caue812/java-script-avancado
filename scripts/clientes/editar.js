@@ -23,7 +23,7 @@ const idParaEditar = params.get("id");
 
 // Função para consultar os dados do cliente e preenchê-los no formulário
 async function consultarDadosClientePorId() {
-    const urlParaConsultarCliente = `${urlAPI}/api/v1/empresa/produtos/clientes/${idParaEditar}`;
+    const urlParaConsultarCliente = `${urlAPI}/api/v1/produtos/clientes/${idParaEditar}`;
     
     const resposta = await fetch(urlParaConsultarCliente);
 
