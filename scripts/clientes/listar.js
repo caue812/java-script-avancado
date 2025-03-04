@@ -1,6 +1,6 @@
 let urlAPI = "https://public.franciscosensaulas.com"
 async function consultarClientes() {
-    const urlClientes = `${urlAPI}/api/v1/empresa/produtos/clientes/`;
+    const urlClientes = `${urlAPI}/api/v1/produtos/clientes/`;
 
 
     try {

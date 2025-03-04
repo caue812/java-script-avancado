@@ -19,24 +19,24 @@
     <div class="text-center">
         <h1 class="text-primary">Cadastro de Cliente</h1>
     </div>
-    <form action="#" class="p-3">                                                                                                                           
+    <form id="formCliente" class="p-3">
         <div>
             <label for="campoNome" class="form-label">Nome</label>
-            <input type="text" id="campoNome" class="form-control">
+            <input type="text" id="campoNome" class="form-control" required>
         </div>
 
         <div>
             <label for="campoTelefone" class="form-label">Telefone</label>
-            <input type="text" id="campoTelefone" class="form-control">
+            <input type="text" id="campoTelefone" class="form-control" required>
         </div>
 
         <div>
             <label for="campoCredito" class="form-label">Crédito</label>
-            <input type="text" id="campoCredito" class="form-control">
+            <input type="text" id="campoCredito" class="form-control" required>
         </div>
 
         <div class="text-end mt-2">
-            <button class="btn btn-success" id="btn-salvar"><i class="fas fa-floppy-disk"></i> Salvar</button>
+            <button type="submit" class="btn btn-success" id="btn-salvar"><i class="fas fa-floppy-disk"></i> Salvar</button>
         </div>
     </form>
 
